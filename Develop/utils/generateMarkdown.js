@@ -6,7 +6,7 @@ function generateMarkdown(data) {
 
 <!-- License -->
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
 Description
 
@@ -43,12 +43,14 @@ ${data.contribute}
 
 To run tests, run the following command:
 
-````
- ${data.license}
-````
+\`\`\`
+
+ ${data.test}
+
+\`\`\`
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at ${questions.email}.
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}.
 You can find more of my work at ${data.username}
 
 
